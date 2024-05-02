@@ -10,7 +10,7 @@ const { carouselRouter } = require('./routes/carousel.js');
 const { scoreRouter} = require('./routes/score.js');
 const { contactUsRouter} = require('./routes/contactUs.js')
 
-const port = 3001;
+const port = process.env.PORT;
 const app = express();
 
 // Middleware
